@@ -1,4 +1,4 @@
-.page {
+/* .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
@@ -106,7 +106,7 @@ a.secondary {
 }
 
 /* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
@@ -162,4 +162,25 @@ a.secondary {
   .logo {
     filter: invert();
   }
+} */
+.body {
+  background-color: orange; /* black background */
+  position: absolute; /* position the element absolutely */
+  top: 0; /* position the element at the top of the page */
+  left: 0; /* position the element at the left of the page */
+  width: 100%; /* take up full width of the page */
+  height: 100%; /* take up full height of the page */
+  display: flex; /* center content vertically and horizontally */
+  justify-content: center;
+  align-items: center;
+
+}
+.orange{
+  background-color: orange;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 13px;
+  justify-content: center;
+  align-items: center;
+   display: flex;  /*ye krne se center mn aya ha text */
 }
